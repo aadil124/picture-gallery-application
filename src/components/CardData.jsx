@@ -8,7 +8,7 @@ const CardData = ({ picturesData }) => {
         const authorName = `${item.user.first_name} ${item.user.last_name}`;
         return (
           <div className="col" key={index}>
-            <div className="card h-130">
+            <div className="card h-100">
               <img
                 src={img}
                 style={{
